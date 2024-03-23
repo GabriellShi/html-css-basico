@@ -1,0 +1,344 @@
+/* ******************************** Lista abaixo de todos codigo CSS E Regras **************************** */
+
+
+/*SEMPRE ZERAR AS MARGIN E PADDING COM  *, DEFINIR A FONTE PADRÃO,  */
+.a {
+  /******* TEXTO  *******/
+
+  /* <= Como comentar no CSS =>  */
+
+  /* regra de sempre que for pegar uma tag no css indicar o caminho da tag ex: p img {}  */
+
+  /* Para chamar um ID no css devo colocar '#NomeDoID'  */
+
+  line-height: 1px; /*Altura da linha*/
+
+  font-weight: bold; /*Largura da fonte*/
+
+  text-transform: uppercase; /*uppercase deixa todo o texto em Maiusculo / lowercase deixa o texto todo em Minusculo*/
+
+  text-decoration: none; /*RETIRA O UNDERLINE DOS LINKS*/
+
+  word-spacing: 2px; /*Diminui ou aumenta o espaço entre as palavras*/
+
+  letter-spacing: 2px; /*Diminui ou aumenta o espaço entre as letras*/
+
+  background-image: url (); /*Ira colocar uma imagem no fundo da tela ao invez de uma cor*/
+
+  text-shadow: 2px 2px 2px red; /*Ira deixar o texto com um sombreado*/
+
+  box-shadow: 2px 2px 3px red; /**Sombreamento em objeto **************************/
+
+  opacity: 0.5; /* Deixa o elemento tranparente ou meio transparente  de 0 a 1 ex 0.3 e por ai vai... */
+
+  cursor: pointer; /* MODIFICA O CURSOR DO MOUSE AO PASSAR ME CIMA DE ALGUMA TAG: pointer deixa como se fosse um link clicavel.
+
+  text-align: justify; /*Centraliza do texto todo alinhado*/
+  direction: rtl; /*Ira ajustar da direita para aesquerda*/
+
+  text-align-last: center; /*Para usar em conjunto com os textos que tem aplicado o justify nele*/
+}
+/* -------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/****** BACKGROUND  *******/
+
+.displays {
+  background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p3/15915999-vista-superior-do-plano-de-fundo-da-area-de-trabalho-telefone-documentos-cafe-pasta-planejador-oculos-papel-artigos-de-papelaria-local-de-trabalho-para-negocios-estudo-ilustracaoial-vetor.jpg); /*Ira colocar uma imagem no fundo da tela ao invez de uma cor*/
+  background-image: url(img/trabalho-img.jpg); /*Ira colocar uma imagem no fundo da tela ao invez de uma cor (com a imagem local)*/
+
+  background-attachment: scroll; /*Esse estilo ira aplicar os tipos de movimento do fundo. fixed ira deixar a imagem fixa ao descer a tabela - 
+   scroll ira deixar a imagem visual, ao descer a tala veremos o resto da imagem*/
+
+  background-repeat: repeat; /*repeat: ira repetir a imagem na tela toda, repeat-x: repete a imagem na horizontal - , - repeat-y: repete a imagem
+   na vertial /, no-repeat: n]ao ira mais repetir    */
+
+  background-position: center center; /*top right: ira ficar no topo a direita ou bottom left: em baixo a esquerda.
+   center left: ira centralizar a esquerda ou 'center center: iracentralizar na horizontal e vertial'  */
+
+  background-position: 100px 200px; /* Ira ajustar a posição da imagem com px  */
+
+  background: url(img/trabalho-img.jpg) no-repeat, black; /*Aqui chamo a imagem para o plano de fundo, mais informo para não repetir, porem tem que
+   retirar o 'image' do background-image e posso ainda aplicar uma cor no fundo para a RESPONSIVIDADE  */
+
+  /* background-size: 500px 300px ; Informa o tamanho da imagem em pixel */
+
+  background-size: 100% auto; /* Informa o tamanho da imagem em % porcentagem */
+
+  background-size: cover; /* ira deixar a imagem fixa quando a altura for maior que a largura */
+
+  opacity: 0.5; /* Deixa o elemento tranparente ou meio transparente  de 0 a 1 ex 0.3 e por ai vai... */
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/****** BORDAR, MARGIN E PADDING  *******/
+
+.a {
+  border-style: solid; /*ESITLOS DE BORDA: solid - Usa linha recorrente, dashed - Usa linha pontilhada em retangulo, dotted - Linha pontilahda
+      em bolinhas,  double - Linha recorrente dupla, inset e ouset - Linha recorrente grosa em cima de uma cor e em baixo de outra*/
+
+  border-width: 3ox; /*LARGURA DA BORDA*/
+
+  border-color: blue; /*COR DA BORDA*/
+
+  border: solid 5px #ff9900; /*Forma abreviada que define o tipo, largura e cor ****MAIS USADO***** */
+
+  /* Margem Externa */
+  margin: 10px 20px 30px 40px; /* ABREVIADO - IRA DEFINIR TODAS MARGINS DE UMA VEZ 
+  Sequncia das margin: top - right - bottom - left */
+
+  margin: 20px 10px; /*Assim ira dar 20px para o top e bottom e 10px para o right e left*/
+
+  margin: 30px; /* assim ira dar 30px para todos os lados*/
+
+  margin-right: auto; /*ira deixar o lado direito com a margin automatica*/
+
+  /* Ira ajustar o conteudo no meio da pagina  */
+  margin-right: auto;
+  margin-left: auto;
+
+  /* Margem Internar  */
+  padding: 40 30px 20px 10px; /* ABREVIADO - IRA DEFINIR TODAS PADDING DE UMA VEZ 
+  Sequncia das padding: top - right - bottom - left */
+
+  padding: 20px 10px; /*Assim ira dar 20px para o top e bottom e 10px para o right e left*/
+
+  padding: 30px; /* assim ira dar 30px para todos os lados*/
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/********ESTILOS DE LISTA *********/
+.a {
+  list-style-position: inside; /*Ajusta a posição da lista na pagina*/
+
+  list-style-type: circle; /*USADO NO 'UL'Informa o tipo de indicador da lista como: circle que faz um circulo vazio - disc com a bolinha escura
+   square faz um quadrado */
+
+  list-style-type: decimal; /*USADO NO 'OL' Informa o tipo de indicador da lista como: descimal que coloca numeros - lower-roman coloca 
+   numeros romanos em minusculo  - upper-roman coloca numeros romanos em maiusculo - lower-alpha coloca em ordem alfabetica com letras minusculas -
+   upper-alpha coloca em ordem alfabetica em letras maiusculas  */
+
+  list-style-type: none; /*tira os indicadores da lista*/
+
+  list-style-image: url (); /*Estrilo para colocar uma imagem no indicador da lista 'POREM NÃO PODE MUDAR O TAMANHO DA IMAGEM. TEM QUE DEFINIR
+   O TAMANHO DELA ANTES'*/
+}
+/* -------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/******* :HOVER  *******/
+
+.titulo {
+  font-size: 62px;
+  text-align: center;
+  color: #2d6447;
+  text-shadow: 2px 2px 5px #acc1ed;
+}
+
+.container {
+  width: 50%;
+  border: solid 1px black;
+  overflow: hidden;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.coluna2 {
+  float: left;
+}
+
+.coluna2 h3 {
+  text-align: center;
+}
+
+.coluna2 h3:hover {
+  color: red;
+}
+
+.destaque {
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin: 20px 10px;
+  border-radius: 50%;
+  background-color: #2d6447;
+  background: url(/img/luffy.png) no-repeat center center, black;
+}
+
+.destaque:hover {
+  background: url(/img/zoro.png) no-repeat center center, red;
+}
+
+.destaque2:hover {
+  background: url(/img/sanji.png) no-repeat center center, red;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/******* ESTILOS DE CENTRALIZAÇÃO  *******/
+
+.a {
+  text-align: center; /* 'PARA TEXTO APENAS' Por padrão o Texto estará a esquerda mais ao usar o 
+      center, right, justify ou outro ele ira reposicionar o 'TEXTO' */
+
+  vertical-align: top; /* É usado para ajustar o objeto  inline (na linha) 'middle' Centraliza o objeto no meio da linha. 
+      'bottom' centraliza em baixo e assim por diante. 'sub' serve para jogar um objeto muito pra baixo */
+
+  /* Ira ajustar o conteudo no meio da pagina  */
+  margin-right: auto;
+  margin-left: auto;
+
+  text-align: justify; /*Centraliza do texto todo alinhado*/
+  direction: rtl; /*Ira ajustar da direita para aesquerda*/
+
+  text-align-last: center; /*Para usar em conjunto com os textos que tem aplicado o justify nele*/
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/******** DISPLAY  ********/
+
+/* A TAG 'DIV' É DISPLAY BLOCK E OCUPA TODA A LARGURA DA PAGINA */
+/* A TAG A (LINK) NÃO OCUPA TODA A PAGINA */
+/*A TAG 'P' É DISPLAY BLOCK E OCUPA TODA A LARGURA DA PAGINA, ALEM DE TER UMA MARGIN PADRÃO*/
+
+/*COM DISPLAY BLOCK É POSSIO MEXER NA LARGURA, POREM COM DISPLAY INLINE NÃO*/
+
+.coluna {
+  /* Se for usado a % na largura a altura não funciona mais, agora se for usado em px ambos funcionam width e hight  */
+
+  border: solid 2px black;
+  /* width: 50%; 
+  Ira definir a largura que a div tera na pagina 'EM % PORCEMTAGEM', e com base nisso os intens dentro operaram nesse espaço*/
+
+  width: 20%;
+
+  height: 150px; /*O mesmo vale para o Height Ira definir a Altura que a div tera na pagina, 
+  e com base nisso os intens dentro operaram nesse espaçp*/
+
+  /* display: inline;*/
+  /*Ira transforma uma tag block em inline (o que estiver em vertical /, ira ficar em horizontal - )*/
+
+  float: left; /*Serve apenas para display block - ela ira jogar os elementos que estão em block /, 
+  meio que inline, colocando um ao lado do outro. Podendo usar left ou right*/
+
+  margin-right: 20px;
+  margin-left: 10px;
+  box-sizing: border-box; /*Serve para recalcular o valor de padding e border e afinar ele, USADO NO *    */
+}
+
+.coluna h2 {
+  display: inline;
+}
+
+.bt {
+  border: solid 2px black;
+  display: block; /*Ira deixar o conteudo da tag que está inline, em block*/
+  width: 250px;
+  float: left;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/******** POSITION *********/
+
+.info {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 121, 14, 0.5942752100840336) 35%,
+    rgba(152, 255, 3, 1) 100%
+  ); /*Codigo pego do site Css Gradient - onde ira colocar um degrade em um objeto colorido*/
+
+  border: solid 1px #333;
+  height: 1000px;
+  margin-top: 150px;
+  position: relative; /*
+  RELATIVE: tem que estar no container pai para as tag que tem o posidio-absolute levar em consideração ela, caso não possua um container pai
+  com o relative o bsolute reconhecera o body como relative
+  */
+}
+.noticia {
+  width: 250px;
+  height: 100px;
+  border: solid 1px #333;
+  position: absolute; /* fixed - relative - absolute   /   **/
+
+  overflow: hidden; /*Esse estilo some com textos que fogem do seu container pai*/
+  overflow: scroll; /*Esse estilo criar um Scrool no container pai quando o texto foge do seu container pai*/
+  overflow: auto; /*Esse estilo cria um scrrol apenas aonde nessecario quando o texto foge do container pai */
+
+  /* ABSOLUTE: Serve para sobrepor outro elemento, */
+}
+
+.um {
+  background-color: red;
+  z-index: 2; /* Serve para sobre por um elemento, porem o elemento que será aplicado o z-indez esteja sobre o dominio de uma position */
+  top: 5px;
+  left: 5px;
+  opacity: 0.5; /* Deixa o elemento tranparente ou meio transparente  de 0 a 1 ex 0.3 e por ai vai... */
+}
+
+.dois {
+  background-color: blue;
+  top: 25px;
+  left: 150px;
+  top: 5px;
+  left: 300px;
+}
+
+.tres {
+  background-color: green;
+  top: 5px;
+  left: 600px;
+  z-index: 5;
+}
+
+.whats {
+  position: fixed;
+  z-index: 10;
+  top: 10px;
+  right: 5px;
+}
+
+.whats a {
+  background-color: #2c733b;
+  color: white;
+  text-decoration: none;
+  display: block;
+  border-radius: 200px;
+  padding: 5px 25px;
+  width: 200px;
+}
+
+.whats img {
+  vertical-align: middle;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/************ RESPONSIVIDAEDE *****************/
+
+/* NO CONTAINER PAI - SE COLOCAR O WIDTH EM 200PX NA RESPONSIVIDADE IRA DIMINUIR O CAMPO EXTERNO, NÃO ALTERANDO O ESPAÇO INTERNO
+AGORA SE FOR WIDTH 20% NA RESPOSIVIDADE IRA DIMINUIR O CAMPO INTERNO PRIMEIRO*/
+
+.a {
+  box-sizing: border-box; /*Serve para recalcular o valor de padding e border e afinar ele, USADO NO *    */
+
+  /* Ira ajustar o conteudo no meio da pagina  */
+  margin-right: auto;
+  margin-left: auto;
+
+  overflow: hidden; /*Esse estilo some com textos que fogem do seu container pai*/
+  overflow: scroll; /*Esse estilo criar um Scrool no container pai quando o texto foge do seu container pai*/
+  overflow: auto; /*Esse estilo cria um scrrol apenas aonde nessecario quando o texto foge do container pai */
+}

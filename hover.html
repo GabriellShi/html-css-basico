@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/x-icon" href="imagens/happy.png">
+
+	<title>Shadows</title>
+	<style type="text/css">
+		body{background: #1a1c21;}
+		.titulo{
+			font-family: sans-serif;
+			font-size: 62px;
+			text-align: center;
+			color: #2d6ff7;
+			text-shadow: 2px 2px 5px #acc1ed;
+		}
+		.container{
+			width: 50%;
+			overflow: hidden;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.coluna{
+			float: left;
+		}
+		.coluna h3{
+			color: #fff;
+			text-align: center;
+		}
+		.coluna h3:hover {
+			color: #2d6ff7;
+		}
+		.destaques{
+			width: 200px;
+			height: 200px;
+			float: left;
+			margin: 20px 10px;
+			border-radius: 50%;
+			background: url(imagens/zz.png) no-repeat center center, #fff ;
+
+		}
+		.destaques:hover{
+			background: url(imagens/zz.png) no-repeat center center, #2d6ff7;
+		}
+		.coluna:hover .destaques{
+			background: url(imagens/happy.png) no-repeat center center, #2d6ff7;
+			box-shadow: 0px 0px 10px #fff;
+		}
+		.coluna:hover h3{
+			color: #2d6ff7;
+		}
+
+	</style>
+</head>
+<body>
+	<h1 class="titulo">Evento :hover com CSS</h1>
+
+	<div class="container">
+		<div class="coluna">
+			<div class="destaques"></div>
+			<h3>Destaque 1</h3>
+		</div>
+		<div class="coluna">
+			<div class="destaques"></div>
+			<h3>Destaque 2</h3>
+		</div>
+		<div class="coluna">
+			<div class="destaques"></div>
+			<h3>Destaque 3</h3>
+		</div>
+		
+	</div>
+
+</body>
+</html>

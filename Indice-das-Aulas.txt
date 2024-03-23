@@ -1,0 +1,80 @@
+*** Estilos do CSS 3 ***
+
+26. Alinhamento Vertical - Aula que usa os valores do estilo 'vertical-align' e usa a estilização da tag 'span'.
+LINK: https://www.udemy.com/course/crie-sites-responsives-do-zero-com-html5-e-css3/learn/lecture/34228732#overview
+
+27. Hierarqui dos Seletores - Aula que informa como Selecionar no Css uma Tag, Id ou Classe.
+Link: https://www.udemy.com/course/crie-sites-responsives-do-zero-com-html5-e-css3/learn/lecture/34228732#overview
+
+28. Bordas no CSS - Aula que informa tipos de bordar, larguras e cores.
+Link: https://www.udemy.com/course/crie-sites-responsives-do-zero-com-html5-e-css3/learn/lecture/34228738#overview
+
+29. Tipos de Display - Aula que informa, sobre as tags que são block ou inline (que ocupam toda a pagina). Como transformar uma tag
+block em inline e uma tag inline em block. E deixando em inline com o estilo 'float'.
+Link: https://www.udemy.com/course/crie-sites-responsives-do-zero-com-html5-e-css3/learn/lecture/34228748#overview
+
+30. Margens Externas / Margins - Aula que informa como usar as margins e elas abreviadas.
+Link: https://www.udemy.com/course/crie-sites-responsives-do-zero-com-html5-e-css3/learn/lecture/34228772#overview
+
+31. Margens Internas / Padding -  Aula que informa como usar as padding e elas abreviadas.
+link: https://www.udemy.com/course/crie-sites-responsives-do-zero-com-html5-e-css3/learn/lecture/34228786#overview
+
+32. Box-Sizing - Aula que informa a aplicação do box sinzing que reduz o espaçamento do padding e border, alem te ter informado 
+a resposividade ao usar o px e % no widhth.
+Link: https://www.udemy.com/course/crie-sites-responsives-do-zero-com-html5-e-css3/learn/lecture/34228804#overview
+
+33. Cantos Arredondado / Border-radius - Aula que informa como Arredondar as bordar e fazer circulos (o width precisa estar proporcional).
+Link:  https://www.udemy.com/course/crie-sites-responsives-do-zero-com-html5-e-css3/learn/lecture/34228812#overview
+
+34. Estilos de Listas -  Aula que informa os tipos de listas e como mudar os icones das listas.
+Link: https://www.udemy.com/course/crie-sites-responsives-do-zero-com-html5-e-css3/learn/lecture/34228818#overview
+
+35. Listas com Imagens - Aula que informa como aplicar imagem no icone da lista e como retirar os icones das listas.
+link: https://www.udemy.com/course/crie-sites-responsives-do-zero-com-html5-e-css3/learn/lecture/34228826#overview
+
+36. Cor no plano de Fundo - Aula que informa como aplicar as cores de fundos nas tags e como deixar o 'margin em auto'.
+Link: https://www.udemy.com/course/crie-sites-responsives-do-zero-com-html5-e-css3/learn/lecture/34228834#overview
+
+37. Imagem no Plano de Fundo - Aula que informa como applicar imagens no fundo da tela ao invez da cor, e como deixar fixed e scrool.
+Link:https://www.udemy.com/course/crie-sites-responsives-do-zero-com-html5-e-css3/learn/lecture/34228848#overview
+
+38. Posicionamento de imagens - Aula que informa como ajustar a posição da imagem de fundo na pagina.
+Link: https://www.udemy.com/course/crie-sites-responsives-do-zero-com-html5-e-css3/learn/lecture/34228854#overview
+
+39. Mudando tamanho das Imagens de Fundo - 
+Link: https://www.udemy.com/course/crie-sites-responsives-do-zero-com-html5-e-css3/learn/lecture/34228864#overview
+
+40. Position com CSS - Aula informa como posicionar um elemento sobre o outro com position relative e absolute.
+Link: https://www.udemy.com/course/crie-sites-responsives-do-zero-com-html5-e-css3/learn/lecture/34228878#overview 
+
+41. Z-index (ordenação dos positions) - Aula informa como sobrepor os elemento um pelo outro com z-index
+Link: https://www.udemy.com/course/crie-sites-responsives-do-zero-com-html5-e-css3/learn/lecture/34228890#overview
+
+42. Posição fixa na tela - Aula informa como deixar um conteudo fixo na tale com position fixed.
+Link: https://www.udemy.com/course/crie-sites-responsives-do-zero-com-html5-e-css3/learn/lecture/34228924#overview
+
+43. Tipos de Overflows CSS - Aula informa como fazer quando o texto foge do container pai, como sumir ele ou criar um scrool para ele.
+Link: https://www.udemy.com/course/crie-sites-responsives-do-zero-com-html5-e-css3/learn/lecture/34228930#overview
+
+44. Sombra nos Textos - Aula informa como colocar sombreamento nos texto.
+Link: https://www.udemy.com/course/crie-sites-responsives-do-zero-com-html5-e-css3/learn/lecture/34228940#overview
+
+45. Sombra nos Blocos - Aula informa como colocar sombreamento em objetos.
+Link: https://www.udemy.com/course/crie-sites-responsives-do-zero-com-html5-e-css3/learn/lecture/34228944#overview
+
+46. Gradiente (degrade) no Plano de Fundo - Aula informa como colocar degrade em um objeto colorio, e o site onde pegar o degrade
+Link: https://www.udemy.com/course/crie-sites-responsives-do-zero-com-html5-e-css3/learn/lecture/34228948#overview
+Site do Degrade: https://cssgradient.io/
+
+47. Transparência (opacity) - Aula  informa como aplicar transparencia em um elemento (o elemento ainda fica na pagina, mais transparente)
+Link: https://www.udemy.com/course/crie-sites-responsives-do-zero-com-html5-e-css3/learn/lecture/34228952#overview
+
+48. Mudando o Ponteiro do Mouse / Justificando e centralizando - Aula informa cmo ajustar os texto com center e justify e como aplicar os 
+tipos de troca do cursor do mouse.
+Link: https://www.udemy.com/course/crie-sites-responsives-do-zero-com-html5-e-css3/learn/lecture/34228964#notes
+
+49. HOVER / Evento ao colocar o Mouse - Aula informa como mudar de cor um elemento ao passar o mouse (pode ser feito com imagem tambem).
+Link: https://www.udemy.com/course/crie-sites-responsives-do-zero-com-html5-e-css3/learn/lecture/34228972#notes
+
+50. Adicionando FAVICON no site - Aula informa como adicionar o link de icone do site na barra do google.
+Link: https://www.udemy.com/course/crie-sites-responsives-do-zero-com-html5-e-css3/learn/lecture/34228980#learning-tools

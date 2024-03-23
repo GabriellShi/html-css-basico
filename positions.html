@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Positions CSS</title>
+	<style type="text/css">
+		.noticia{
+			width: 250px;
+			height: 200px;
+			border: solid 1px #333;
+			position: absolute;
+			/* fixed - relative - absolute - static */
+			overflow: auto;
+			/* visible -  hidden - scrol - auto*/
+			
+		}
+		.noticia p{
+			font-size: 18px;
+		}
+		.um{
+			background: red;
+			top: 5px;
+			left: 5px;
+			z-index: 2;
+		}
+		.dois{
+			background: green;
+			top: 5px;
+			left: 300px;
+			z-index: 9;
+		}
+		.tres{
+			background: blue;
+			top: 5px;
+			left: 600px;
+			z-index: 3;
+		}
+		.info{
+			border: solid 1px #333;
+			height: 1000px;
+			margin-top: 150px;
+			position: relative;
+		}
+		.whats{
+			position: fixed;
+			z-index: 99;
+			bottom: 20px;
+			right: 20px;
+		}
+		.whats a{
+			background: #2c733b;
+			color: #fff;
+			text-decoration: none;
+			display: block;
+			border-radius: 200px;
+			padding: 5px 25px;
+			width: 200px;
+		}
+		.whats img{
+			vertical-align: middle;
+		}
+
+	</style>
+</head>
+<body>
+
+	<div class="whats">
+		<a href="#">
+			<img src="imagens/whatsapp-icon.png" alt="WhatsApp">
+			Entre em contato
+		</a>
+	</div>
+
+	<div class="info">
+		<div class="noticia um">
+			<h2>Título da Notícia</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+		</div>
+		<div class="noticia dois">
+			<h2>Título da Notícia</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+		</div>
+		<div class="noticia tres">
+			<h2>Título da Notícia</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+		</div>
+	</div>	
+</body>
+</html>

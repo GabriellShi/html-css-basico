@@ -1,0 +1,65 @@
+                                            ****************REGRAS DE RESPONSIVIDADE EM PAGINAS COM "CSS"***************** 
+                                                    Video com as Regras(https://www.youtube.com/watch?v=H91DhKPjhPk)
+
+Unidades de medudas do css:
+
+- Layout Fixo
+'px' - Pixels
+
+- Layout Fluido
+'%' - Porcentagem
+'auto' - Automático
+'vh' - Viewport Height - Ele é medido como a porcentagem de 0 a 100
+'vw' - Viewport Width - Ele é medido como a porcentagem de 0 a 100
+
+- Texto Fixos
+'1px' - 0.75pt - Como no Word
+'16px' - 12pt - Como no Word
+
+- Textos Fluidos
+'em' -  Multiplicado pela quantidade de px do PAI. Ex: o container pai tem 10px e eu coloco 2em no filho o texto do filho tera um resultado de 20px
+'rem' - Multiplicado pela quatidade de px do ROOT *(HTML)
+
+
+IMAGEM DENTRO DE UM ELEMENTO NO CSS
+
+**Tecnicamente deixar um rem configurado do html, ira te ajudar a ajustar a resposvidade e o texto sera usado no 'media query' com base nos pxs do font-size
+Ou seja apos definir o tamanho no html irei alterar todos os texto e line-hight do css que estão com 'px' por 'rem' (posso aplicar para os padding tambem).
+
+**max-width: 980px - Isso ira dizer que o container que tem o max não pode ser maior que 980px e se colocar o mesmo container com width 100% ira deixar o container
+ajustavel na pagina toda, porem é aconselhavel deixar com 90% para deixar com uma folga, "Borda".
+
+** Nunca esquecer do   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+** 'order: -1;' pode fazer uma imagem ou objeto mudar de posição, ex: se ouver um quadro e em baixo uma imagem e eu usar order: -1 na imagem, ela ira para sima
+do quadrado.
+
+
+
+
+
+
+Comeco do css:
+- Sempre deve ter o *
+
+EX:
+
+*{
+  box-sizing: border-box>,
+  margin: 0,
+  Padding: 0,
+  outline: 0,
+}
+
+
+
+html,
+body {
+  height: 100vh,
+  font-family: "Source Sans Pro";
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+
